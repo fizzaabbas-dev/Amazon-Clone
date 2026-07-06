@@ -1,594 +1,489 @@
-*{
+* {
+  margin: 0;
 
-    margin:0;
+  font-family: Arial;
 
-    font-family: Arial;
-
-    border:border-box;
-
+  border: border-box;
 }
 
-.navbar{
+.navbar {
+  height: 60px;
 
-    height:60px;
+  background-color: #0f1111;
 
-    background-color: #0f1111;
+  color: white;
 
-    color:white;
+  display: flex;
 
-    display:flex;
+  align-items: center;
 
-    align-items: center;
-
-    justify-content: space-evenly;
-
+  justify-content: space-evenly;
 }
 
-.nav-logo{
+.nav-logo {
+  height: 50px;
 
-    height:50px;
-
-    width:100px;
-
+  width: 100px;
 }
 
-.logo{
+.logo {
+  background-image: url(amazon_logo.png);
 
-    background-image: url(amazon_logo.png);
+  background-size: cover;
 
-    background-size: cover;
+  height: 50px;
 
-    height:50px;
-
-    width: 100px;
-
+  width: 100px;
 }
 
-.border{
-
-    border:2px solid transparent
-
+.border {
+  border: 2px solid transparent;
 }
 
-.border:hover{
-
-    border:2px solid white
-
+.border:hover {
+  border: 2px solid white;
 }
 
 /* box2 */
 
-.add-first{
+.add-first {
+  color: #cccccc;
 
-color:#cccccc;
-
-font-size:0.85rem;
-
-
-
+  font-size: 0.85rem;
 }
 
-.add-second{
-
-    font-size: 1rem;;
-
+.add-second {
+  font-size: 1rem;
 }
 
-.add-icon{
+.add-icon {
+  display: flex;
 
-    display:flex;
-
-    align-items: center;
-
+  align-items: center;
 }
 
 /* box3 */
 
-.nav-search{
+.nav-search {
+  display: flex;
 
-    display:flex;
+  justify-content: space-evenly;
 
-    justify-content: space-evenly;
+  background-color: pink;
 
-    background-color:pink;
+  width: 620px;
 
-    width:620px;
+  height: 40px;
 
-    height: 40px;
-
-    border-radius: 4px;
-
+  border-radius: 4px;
 }
 
-.search-select{
+.search-select {
+  background-color: #f3f3f3;
 
-    background-color: #f3f3f3;
+  width: 50px;
 
-    width:50px;
+  text-align: center;
 
-    text-align:center;
+  border-top-left-radius: 4px;
 
-    border-top-left-radius:4px;
+  border-bottom-left-radius: 4px;
 
-    border-bottom-left-radius: 4px;
-
-    border:none;
-
-
-
+  border: none;
 }
 
-.search-input{
+.search-input {
+  width: 100%;
 
-    width:100%;
+  font-size: 1rem;
 
-    font-size: 1rem;
-
-    border:none;
-
+  border: none;
 }
 
-.search-icon{
+.search-icon {
+  width: 45px;
 
-    width:45px;
+  display: flex;
 
-    display:flex;
+  justify-content: center;
 
-    justify-content: center;
+  align-items: center;
 
-    align-items: center;
+  font-size: 1.2rem;
 
-    font-size:1.2rem;
+  background-color: #febd68;
 
-    background-color: #febd68;
+  border-top-right-radius: 4px;
 
-    border-top-right-radius: 4px;
-
-    border-bottom-left-radius:4px ;
-
+  border-bottom-left-radius: 4px;
 }
 
-.nav-search:hover{
-
-    border:2px solid orange;
-
+.nav-search:hover {
+  border: 2px solid orange;
 }
 
 /* box4 */
 
-span{
-
-    font-size:0.7rem;
-
+span {
+  font-size: 0.7rem;
 }
 
-.nav-second{
+.nav-second {
+  font-size: 0.85rem;
 
-    font-size: 0.85rem;
-
-    font-weight: 700;
-
+  font-weight: 700;
 }
 
 /* box5 */
 
 .nav-cart i {
-
-font-size: 30px;
-
+  font-size: 30px;
 }
 
-.nav-cart{
-
-    font-size: 0.85rem;
-
+.nav-cart {
+  font-size: 0.85rem;
 }
 
 /* panel */
 
-.panel{
+.panel {
+  height: 40px;
 
-    height:40px;
+  background-color: #222f3d;
 
-    background-color: #222f3d;
+  display: flex;
 
-    display:flex;
+  color: white;
 
-    color:white;
+  align-items: center;
 
-    align-items: center;
-
-    justify-content: space-evenly;
-
+  justify-content: space-evenly;
 }
 
-.panel-ops p{
+.panel-ops p {
+  display: inline;
 
-    display:inline;
-
-    margin-left:10px;
-
+  margin-left: 10px;
 }
 
-.panel-ops{
+.panel-ops {
+  width: 70%;
 
-    width:70%;
-
-    font-size: 0.85rem;
-
+  font-size: 0.85rem;
 }
 
-.panel-deala{
+.panel-deala {
+  font-size: 0.9rem;
 
-    font-size:0.9rem;
-
-    font-weight: 700;
-
+  font-weight: 700;
 }
 
 /* hero  section */
 
-.hero-section{
+.hero-section {
+  background-image: url(hero_image.jpg);
 
-    background-image: url(hero_image.jpg);
+  background-size: cover;
 
-    background-size: cover;
+  height: 400px;
 
-    height:400px;
+  display: flex;
 
-    display:flex;
+  justify-content: center;
 
-    justify-content: center;
-
-    align-items: flex-end;
-
-
-
+  align-items: flex-end;
 }
 
-.hero-msg{
+.hero-msg {
+  background-color: white;
 
-    background-color: white;
+  color: black;
 
-    color:black;
+  height: 40px;
 
-    height:40px;
+  display: flex;
 
-    display:flex;
+  align-items: center;
 
-    align-items: center;
+  justify-content: center;
 
-    justify-content: center;
+  font-size: 0.85rem;
 
-    font-size: 0.85rem;
+  width: 80%;
 
-    width: 80%;
-
-    margin-bottom:25px;
-
-   
-
+  margin-bottom: 25px;
 }
 
 .hero-msg a {
-
-    color:#007185;
-
-
-
+  color: #007185;
 }
 
 /* shop section */
 
-.shop-section{
+.shop-section {
+  display: flex;
 
-    display:flex;
+  flex-wrap: wrap;
 
-    flex-wrap:wrap;
+  justify-content: space-evenly;
 
-    justify-content: space-evenly;
-
-    background-color: #e2e7e6;
-
+  background-color: #e2e7e6;
 }
 
-.box{
+.box {
+  /* border:2px solid black; */
 
-    /* border:2px solid black; */
+  height: 400px;
 
-    height:400px;
+  width: 23%;
 
-    width:23%;
+  background-color: white;
 
-    background-color:white;
+  padding: 20px 0px 15px;
 
-    padding:20px 0px 15px;
-
-    margin:10px;
-
+  margin: 10px;
 }
 
-.box-img{
+.box-img {
+  height: 300px;
 
-height:300px;
+  background-size: cover;
 
-background-size: cover;
+  margin-top: 1rem;
 
-margin-top:1rem;
-
-margin-bottom: 1rem;
-
+  margin-bottom: 1rem;
 }
 
-.box-content{
+.box-content {
+  margin-left: 10px;
 
-    margin-left: 10px;
-
-    margin-right: 10px ;
-
+  margin-right: 10px;
 }
 
 .box-content p {
-
-color:#007185;
-
+  color: #007185;
 }
 
 /* footer */
 
-.footer{
-
-    margin-bottom:15px ;
-
+.footer {
+  margin-bottom: 15px;
 }
 
-.foot-panel1{
+.foot-panel1 {
+  background-color: #37475a;
 
-   background-color: #37475a;
+  color: white;
 
-   color:white;
+  height: 50px;
 
-   height:50px;
+  display: flex;
 
-   display:flex;
+  justify-content: center;
 
-   justify-content: center;
+  align-items: center;
 
-   align-items: center;
-
-   font-size: 0.85rem;
-
+  font-size: 0.85rem;
 }
 
-.foot-panel2{
+.foot-panel2 {
+  background-color: #222f3d;
 
-    background-color:#222f3d;
+  color: white;
 
-    color:white;
+  height: 300px;
 
-    height: 300px;
+  display: flex;
 
-    display:flex;
-
-    justify-content:space-evenly ;
-
+  justify-content: space-evenly;
 }
 
-ul{
-
-    margin-top:20px;
-
+ul {
+  margin-top: 20px;
 }
 
-ul a{
+ul a {
+  display: block;
 
-   display:block;
+  font-size: 0.85rem;
 
-   font-size: 0.85rem;
+  margin-top: 10px;
 
-   margin-top: 10px;
-
-   color:#dddddd
-
+  color: #dddddd;
 }
 
-.foot-panel3{
+.foot-panel3 {
+  background-color: #222f3d;
 
-    background-color: #222f3d;
+  color: white;
 
-    color:white;
+  border-top: 0.5px solid white;
 
-    border-top: 0.5px solid white;
+  height: 70px;
 
-    height:70px;
+  display: flex;
 
-    display:flex;
-
-    justify-content: center;
-
+  justify-content: center;
 }
 
-.logo{
+.logo {
+  background-image: url("amazon_logo.png");
 
-    background-image:url("amazon_logo.png");
+  background-size: cover;
 
-    background-size: cover;
+  height: 50px;
 
-    height:50px;
-
-    width: 100px;
-
+  width: 100px;
 }
 
-.foot-panel4{
+.foot-panel4 {
+  background-color: #0f1111;
 
-    background-color:#0f1111 ;
+  color: white;
 
-    color:white;
+  height: 100px;
 
-    height:100px;
+  font-size: 0.7rem;
 
-    font-size:0.7rem;
-
-    text-align: center;
-
-   
-
+  text-align: center;
 }
 
-.page{
-
-  padding-top:25px;
-
+.page {
+  padding-top: 25px;
 }
 
-.copyright{
-
-    padding-top:5px;
+.copyright {
+  padding-top: 5px;
 }
 .clothes-link {
-    color: #007185;          
-    text-decoration: underline; 
-    font-size: 0.9rem;
-    display: inline-block;
-    margin-top: 10px;
+  color: #007185;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .clothes-link:hover {
-    color: #c7511f; 
+  color: #c7511f;
 }
 .shop-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #e2e7e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
 }
-/* 📝 Isay apni style.css ke bilkul end mein update kar dein */
 .see-more-link {
-    color: #007185;             /* Amazon ka blue link color */
-    text-decoration: underline;    /* Underline text */
-    font-size: 0.9rem;
-    display: inline-block;
-    margin-top: 10px;
+  color: #007185;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .see-more-link:hover {
-    color: #c7511f;             /* Hover karne par orange color */
+  color: #c7511f;
 }
-/* ==========================================================================
-   🌟 NAVIGATIONS & PRODUCT DETAILS PAGES STYLING (Add at the very end)
-   ========================================================================== */
 
-/* Main Page ke saare "See more" links ke liye */
 .see-more-link {
-    color: #007185;             /* Amazon ka blue link color */
-    text-decoration: underline;    /* Underline jaisa aapki picture mein hai */
-    font-size: 0.9rem;
-    display: inline-block;
-    margin-top: 10px;
+  color: #007185;
+  text-decoration: underline;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .see-more-link:hover {
-    color: #c7511f;             /* Mouse le jaane par Amazon orange color */
+  color: #c7511f;
 }
 
-/* Naye pages ka main background aur khula-khula open layout */
 .detail-page-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 40px;
-    background-color: #ffffff;  /* Saaf white background bina kisi dabba ke */
-    color: #111111;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #111111;
 }
 
-/* Sab content ko center mein aik line mein rakhne ke liye container */
 .detail-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* Naye pages ki headings */
 .detail-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-/* Naye pages ki product images */
 .detail-img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-    margin-bottom: 25px;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 25px;
 }
 
-/* Product ki red color wali price */
 .detail-price {
-    font-size: 1.8rem;
-    margin: 15px 0;
-    color: #cc0c39;
+  font-size: 1.8rem;
+  margin: 15px 0;
+  color: #cc0c39;
 }
 
-/* Product ki description text */
 .detail-desc {
-    color: #333333;
-    font-size: 1.05rem;
-    max-width: 650px;
-    margin: 0 auto 25px auto;
-    line-height: 1.5;
+  color: #333333;
+  font-size: 1.05rem;
+  max-width: 650px;
+  margin: 0 auto 25px auto;
+  line-height: 1.5;
 }
 
-/* Features ki list ka container */
 .detail-features {
-    text-align: left;
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 1rem;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 1rem;
 }
 
 .detail-features h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #111;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #111;
 }
 
 .detail-features ul {
-    padding-left: 20px;
-    line-height: 1.8;
-    color: #333;
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #333;
 }
 
-/* Amazon style Yellow Button */
 .cart-btn {
-    background-color: #ffd814;
-    border: 1px solid #fcd200;
-    border-radius: 20px;
-    padding: 12px 50px;
-    font-size: 1rem;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(213,217,217,.5);
-    transition: background 0.2s;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  padding: 12px 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+  transition: background 0.2s;
 }
 
 .cart-btn:hover {
-    background-color: #f7ca00;   /* Hover karne par thoda dark yellow */
+  background-color: #f7ca00;
 }
 
-/* Back to Home link jo sab se niche hai */
 .back-home-div {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .back-home-link {
-    text-decoration: none;
-    color: #007185;
-    font-size: 1rem;
-    font-weight: bold;
+  text-decoration: none;
+  color: #007185;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .back-home-link:hover {
-    text-decoration: underline;
-    color: #c7511f;
+  text-decoration: underline;
+  color: #c7511f;
 }
